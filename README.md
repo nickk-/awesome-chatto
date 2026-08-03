@@ -12,11 +12,11 @@ NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most 
 
 ## Deployment 
 
-- **Proxmox Virtuel Environment/LXC:**
+- **Proxmox Virtual Environment/LXC:**
     - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT. *(Testers wanted.)*
 - **Installation helpers:**
-    - poga's **Emergency Box**: https://github.com/poga/emergency-box, *Script to set up Chatto on LAN during emergency times.*, AGPL-3.0  
-	  "It's a 1 shot script for setting up a chatto on a Macbook and allows anyone on the same LAN to join. with some built-in bots for fetching news if there's still intermittent internet connection."
+    - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies.*, AGPL-3.0  
+	  "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
 	
 ## Community Frontends
 
