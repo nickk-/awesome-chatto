@@ -7,7 +7,9 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 ----
 
 <div align="center">
-  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+  <a href="https://awesome.re"> 
+    <img src="https://awesome.re/badge-flat2.svg" alt="Awesome" />
+  </a>
 </div>
 
 ----
@@ -18,7 +20,6 @@ NB: Chatto is currently pre-1.0 software. Some breakage is to be expected.
 
 * **App Wrappers:** 
   * Teal's Tauri Shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+
-
 * **Client demonstrators:** 
   * Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, t.b.d. 
 
