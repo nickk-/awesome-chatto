@@ -2,7 +2,7 @@
 
 This is an *Awesome Chatto* list curated for the Chatto Community by nickk @ [Chatto HQ](https://chat.chatto.run).
 
-Chatto is a *A fully-featured team and group chat application that you can easily selfhost*. It is free to use, lightweight, easy to spin up and manage, and its international community is very friendly.
+Chatto is a *A fully-featured team and group chat application that you can easily selfhost*. It is free to use, lightweight, easy to spin up and manage, and respects your privacy. Its international community is very friendly.
 
 ---
 
@@ -10,6 +10,14 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most authors are on Chatto HQ, so stop by and share your experiences.
 
+## Deployment 
+
+- **Proxmox Virtuel Environment/LXC:**
+    - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT. *(Testers wanted.)*
+- **Installation helpers:**
+    - poga's **Emergency Box**: https://github.com/poga/emergency-box, *Script to set up Chatto on LAN during emergency times.*, AGPL-3.0
+	  "It's a 1 shot script for setting up a chatto on a Macbook and allows anyone on the same LAN to join. with some built-in bots for fetching news if there's still intermittent internet connection."
+	
 ## Community Frontends
 
 - **App Wrappers:**
@@ -33,4 +41,6 @@ NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 
 ---
 
-This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Ideas? Suggestions? Come on over to [Chatto HQ](https://chat.chatto.run) and discuss!
+This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+
+Ideas? Suggestions? Come on over to [Chatto HQ](https://chat.chatto.run) and discuss!
