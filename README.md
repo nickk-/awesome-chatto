@@ -8,7 +8,7 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 ![Awesome](https://awesome.re/badge-flat2.svg)
 
-NB: Chatto is currently pre-1.0 software. Some breakage is to be expected.
+NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most authors are on Chatto HQ, so stop by and share your experiences.
 
 ## Community Frontends
 
@@ -21,7 +21,7 @@ NB: Chatto is currently pre-1.0 software. Some breakage is to be expected.
 
 NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 
-- Python:
+- **Python:**
   - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, t.b.d.
 
 ## Community Libraries
@@ -29,7 +29,7 @@ NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 - **Python:**
   - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0
 - **TypeScript:**
-  - Axoduble's **chatto.ts**: https://github.com/axodouble/chatto.ts, MIT
+  - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance. Pull requests welcome!*, MIT
 
 ---
 
