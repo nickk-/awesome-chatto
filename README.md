@@ -62,8 +62,10 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 ---
 
-This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
-
 The Community is grateful for anyone who participates and contributes. Thank you!
 
-Ideas? Suggestions? Come on over to [Chatto HQ](https://chat.chatto.run) and discuss!
+Ideas? Suggestions? Found a stale link? Come on over to [Chatto HQ](https://chat.chatto.run) and discuss!
+
+---
+
+This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
