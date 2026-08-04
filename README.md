@@ -41,6 +41,13 @@ NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 - **Python:**
   - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT
 
+## Bridges
+
+A *bridge* is a special kind of bot that allows for Rooms being connected to at least one other Room (or "channel") on another Server or even service. Content is shared between the connected Rooms/channels, so data and trust boundaries become fuzzy. Before deploying, ensure consent of admins/owners and Communities involved. 
+
+- **Chatto -- Discord:**
+  - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0
+  
 ## Libraries
 
 - **Java:**
