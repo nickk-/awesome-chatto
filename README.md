@@ -41,12 +41,14 @@ NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 - **Python:**
   - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, t.b.d.
 
-## Community Libraries
+## Libraries
 
+- **Java:**
+  - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
   - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0
 - **TypeScript:**
-  - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance. Pull requests welcome!*, MIT
+  - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT
 
 ---
 
