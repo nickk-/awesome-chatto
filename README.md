@@ -10,6 +10,15 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most authors are on Chatto HQ, so stop by and share your experiences.
 
+Table of Contents
+=================
+
+* [Deployment](#deployment)
+* [Frontend](#frontend)
+* [Bots](#bots)
+* [Bridges](#bridges)
+* [Libraries](#libraries)
+
 ## Deployment 
 
 - **Proxmox Virtual Environment/LXC:**
@@ -46,7 +55,7 @@ NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 A *bridge* is a special kind of bot that allows for Rooms being connected to at least one other Room (or "channel") on another Server or even service. Content is shared between the connected Rooms/channels, so data and trust boundaries become fuzzy. Before deploying, ensure consent of admins/owners and Communities involved. 
 
 - **Chatto -- Discord:**
-  - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0
+  - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
   Felix says this is in its very early days as of early August 2026.
   
 ## Libraries
@@ -58,7 +67,8 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 - **Rust:**
   - There was a Rust effort by jacklak.
 - **TypeScript:**
-  - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT
+  - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
+  Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too. 
 
 ---
 
