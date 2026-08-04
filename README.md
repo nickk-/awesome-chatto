@@ -32,14 +32,14 @@ NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most 
   Aimed at Chatto 0.4, it provides enhanced voice chat UI, chat bar, and Markdown controls.
         
 - **Client demonstrators:** These are alternative Chatto client implementations, usually focussing on text (chat) experience.
-  - Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, t.b.d.
+  - Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT
 
 ## Bots
 
 NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 
 - **Python:**
-  - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, t.b.d.
+  - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT
 
 ## Libraries
 
