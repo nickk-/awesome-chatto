@@ -18,17 +18,17 @@ NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most 
     - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
 	  "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
 	
-## Community frontend work
+## Frontend
 
 - **App Wrappers:**
   These applications are native wrappers around Chatto's web frontend. This results in a standalone experience that includes native OS notifications, and badges. 
   - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0
-  - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+
+  - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+  
   The earliest known shell, a proof-of-concept at this point.
 
 - **Browser extensions:**
   These enrich Chatto's standard web client experience. 
-  - Loading's Chromium extension: https://chat.chatto.run/chat/-/RTKVVgllAweTw3h/m/Ed7xXBVTYttxQ9W, *Chatto Enhancer*, t.b.d. 
+  - Loading's Chromium extension: https://chat.chatto.run/chat/-/RTKVVgllAweTw3h/m/Ed7xXBVTYttxQ9W, *Chatto Enhancer*, t.b.d.  
   Aimed at Chatto 0.4, it provides enhanced voice chat UI, chat bar, and Markdown controls.
         
 - **Client demonstrators:**
