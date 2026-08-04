@@ -47,6 +47,7 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 - **Chatto -- Discord:**
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0
+  Felix says this is in its very early days as of early August 2026.
   
 ## Libraries
 
@@ -54,6 +55,8 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
   - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
   - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0
+- **Rust:**
+  - There was a Rust effort by jacklak.
 - **TypeScript:**
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT
 
