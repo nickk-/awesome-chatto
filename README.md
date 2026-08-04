@@ -1,6 +1,6 @@
 # Awesome Chatto
 
-This is an *Awesome Chatto* list curated for the Chatto Community by nickk @ [Chatto HQ](https://chat.chatto.run).
+This is an *Awesome Chatto* list curated for the Chatto Community by nickk @ [Chatto HQ](https://chat.chatto.run) Server.
 
 Chatto is a *A fully-featured team and group chat application that you can easily selfhost*. It is free to use, lightweight, easy to spin up and manage, and respects your privacy. Its international community is very friendly.
 
@@ -31,7 +31,7 @@ NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most 
   - Loading's Chromium extension: https://chat.chatto.run/chat/-/RTKVVgllAweTw3h/m/Ed7xXBVTYttxQ9W, *Chatto Enhancer*, t.b.d.  
   Aimed at Chatto 0.4, it provides enhanced voice chat UI, chat bar, and Markdown controls.
         
-- **Client demonstrators:**
+- **Client demonstrators:** These are alternative Chatto client implementations, usually focussing on text (chat) experience.
   - Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, t.b.d.
 
 ## Bots
