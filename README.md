@@ -8,10 +8,9 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 ![Awesome](https://awesome.re/badge-flat2.svg)
 
-NB: Chatto is currently pre-1.0 software. Some breakage is to be expected. Most authors are on Chatto HQ, so stop by and share your experiences.
+NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.
 
-Table of Contents
-=================
+## Table of Contents
 
 * [Deployment](#deployment)
 * [Frontend](#frontend)
@@ -22,7 +21,8 @@ Table of Contents
 ## Deployment 
 
 - **Proxmox Virtual Environment/LXC:**
-    - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT. *(Testers wanted.)*
+    - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT.  
+	*(Testers wanted.)*
 - **Installation helpers:**
     - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
 	  "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
@@ -37,8 +37,8 @@ Table of Contents
 
 - **Browser extensions:**
   These enrich Chatto's standard web client experience. 
-  - Loading's Chromium extension: https://chat.chatto.run/chat/-/RTKVVgllAweTw3h/m/Ed7xXBVTYttxQ9W, *Chatto Enhancer*, t.b.d.  
-  Aimed at Chatto 0.4, it provides enhanced voice chat UI, chat bar, and Markdown controls.
+  - Loading's Chromium extension: https://github.com/SeanGSR/chatto-enhancer, *Chatto Enhancer*, MIT  
+  Aimed at Chatto 0.4, providing enhanced voice chat UI, chat bar (Emoji picker, Giphy integration), and Markdown controls.
         
 - **Client demonstrators:** These are alternative Chatto client implementations, usually focussing on text (chat) experience.
   - Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT
@@ -65,7 +65,7 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 - **Python:**
   - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0
 - **Rust:**
-  - There was a Rust effort by jacklak.
+  - Jacklak spearheaded a Rust effort at one point.
 - **TypeScript:**
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
   Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too. 
@@ -74,7 +74,7 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 The Community is grateful for anyone who participates and contributes. Thank you!
 
-Ideas? Suggestions? Found a stale link? Come on over to [Chatto HQ](https://chat.chatto.run) and discuss!
+Ideas? Suggestions? Found a stale link? Join us at [Chatto HQ](https://chat.chatto.run) and discuss!
 
 ---
 
