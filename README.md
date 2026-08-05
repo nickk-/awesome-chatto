@@ -38,7 +38,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 - **Browser extensions:**
   These enrich Chatto's standard web client experience. 
   - Loading's Chromium extension: https://github.com/SeanGSR/chatto-enhancer, *Chatto Enhancer*, MIT  
-  Aimed at Chatto 0.4, providing enhanced voice chat UI, chat bar (Emoji picker, Giphy integration), and Markdown controls.
+  Aimed at Chatto 0.4. The extension provides enhancements for voice chat UI and chat bar (namely: Emoji picker, Giphy integration, and Markdown controls).
         
 - **Client demonstrators:** These are alternative Chatto client implementations, usually focussing on text (chat) experience.
   - Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT
