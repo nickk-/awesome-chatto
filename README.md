@@ -41,7 +41,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
   Aimed at Chatto 0.4. The extension provides enhancements for voice chat UI and chat bar (namely: Emoji picker, Giphy integration, and Markdown controls).
         
 - **Client demonstrators:** These are alternative Chatto client implementations, usually focussing on text (chat) experience.
-  - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0
+  - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0  
     Probably the very first alternative client for Chatto. Text mode, implemented in Go. Less of a classic client UI, more of a command-line interface to participating on a Server. 
   - Felix's Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT
 
@@ -50,7 +50,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
 
 - **Python:**
-  - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0
+  - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
   This is probably the first ever bot for Chatto.
   - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT
 
