@@ -33,7 +33,9 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 - **App Wrappers:**
   These applications are native wrappers around Chatto's web frontend. This results in a standalone experience that includes native OS notifications, and badges.  
-  NB: The natural drawback of this approach is that you being tied to the wrapper's release cycle, which might not match your Server's upgrade policy. In other words: If the version difference between App Wrapper and Server becomes too large, expect some (feature) breakage.  
+  
+  NB: The natural drawback of this approach is that you are being tied to the wrapper's release cycle, which might not match your Server's upgrade policy. In other words: If the version difference between App Wrapper and Server becomes too large, expect some (feature) breakage.  
+  
   NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ will be better at that.  
   There *will* be official ChattoCorp apps at one point.  
   
