@@ -50,7 +50,7 @@ There *will* be official ChattoCorp apps at one point.
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
 - Loading's Chromium extension: https://github.com/SeanGSR/chatto-enhancer, *Chatto Enhancer*, MIT  
-  Aimed at Chatto 0.4. The extension provides enhancements for voice chat UI and chat bar (namely: Emoji picker, Giphy integration, and Markdown controls).
+  Aimed at Chatto 0.4. The extension provides enhancements for voice/video chat UI and chat bar (namely: Emoji picker, Giphy integration, local nicknames, and Markdown controls).
         
 ### Client demonstrators
 These are alternative Chatto client implementations, usually focussing on text (chat) experience.
