@@ -47,7 +47,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 ## Bots
 
-NB: There will be a dedicated Bot API surface coming up with Chatto 0.5+.
+NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot accounts, and clearly scoped capabilities.
 
 - **Python:**
   - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
