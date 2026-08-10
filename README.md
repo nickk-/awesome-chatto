@@ -50,7 +50,7 @@ There *will* be official ChattoCorp apps at one point.
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
 - SeanGSR's Chromium extension: https://github.com/SeanGSR/chatto-enhancer, *Chatto Enhancer*, MIT  
-  Aimed at Chatto 0.4. The extension provides enhancements for voice/video chat UI and chat bar (namely: Emoji picker, Giphy integration, local nicknames, and Markdown controls).
+  Aimed at Chatto 0.4. The extension provides enhancements for voice/video chat UI and chat bar (namely: Emoji picker, Giphy integration, local nicknames, enhanced theming, and Markdown controls).
         
 ### Client demonstrators
 These are alternative Chatto client implementations, usually focussing on text (chat) experience.
@@ -69,7 +69,7 @@ NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot account
 
 ## Bridges
 
-A *bridge* is a special kind of bot that allows for Rooms being connected to at least one other Room (or "channel") on another Server or even service. Content is shared between the connected Rooms/channels, so data and trust boundaries become fuzzy. Before deploying, ensure consent of admins/owners and Communities involved. 
+A *bridge* is a special kind of bot that allows for Rooms being connected to at least one other Room (or "channel") on another Server or even service. Content is shared between the connected Rooms/channels, so governance, data, and trust boundaries become fuzzy. Before deploying, ensure consent of admins/owners and Communities involved. 
 
 ### Chatto -- Discord
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
