@@ -17,7 +17,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 * [Bots](#bots)
 * [Bridges](#bridges)
 * [Libraries](#libraries)
-* [Further Reading](#further%20reading)
+* [Further Reading](#further-reading)
 
 ## Deployment 
 
