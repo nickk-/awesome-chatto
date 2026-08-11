@@ -88,6 +88,15 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
   Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too. 
 
+## Further Reading
+
+- Chatto 0.5:
+  - Release Checklist: https://github.com/chattocorp/chatto/issues/1926
+  - Milestone Plan: https://github.com/chattocorp/chatto/milestone/4
+- Meta:
+  - Mans, Hendrik: Chatto is Robots, personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
+    Hendrik reflecting on his agentic development flow.
+
 ---
 
 The Community is grateful for anyone who participates and contributes. Thank you!
