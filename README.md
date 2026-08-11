@@ -83,7 +83,7 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
   - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0
 - **Rust:**
   - Jacklak's **churro** crate: https://github.com/jacklak-redstone/churro, *A Rust crate to make Chatto bots*, Apache-2.0  
-  With Chatto 0.5 upcoming, Jacklak hopes to restart work on this crate. Meanwhile, there is a demonstrator bot on Chatto HQ, churrobot.
+  While *churro* still is in its early days, there is a demonstrator bot on Chatto HQ already, churrobot.
 - **TypeScript:**
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
   Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too. 
