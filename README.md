@@ -91,11 +91,11 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 ## Further Reading
 
-- Chatto 0.5:
+- About **Chatto 0.5**:
   - Release Checklist: https://github.com/chattocorp/chatto/issues/1926
   - Milestone Plan: https://github.com/chattocorp/chatto/milestone/4
-- Meta:
-  - Mans, Hendrik: Chatto is Robots, personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
+- **Meta**:
+  - Mans, Hendrik: "Chatto is Robots", personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
     Hendrik reflecting on his agentic development flow.
 
 ---
