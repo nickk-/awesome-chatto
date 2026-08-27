@@ -101,10 +101,12 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 - About **Chatto 0.5**:
   - Release Checklist: https://github.com/chattocorp/chatto/issues/1926
   - Milestone Plan: https://github.com/chattocorp/chatto/milestone/4
+- About **Chatto 0.6**: 
+  - Milestone Plan: https://github.com/chattocorp/chatto/milestone/5
 - **Meta**:
   - Mans, Hendrik: "Chatto is Robots", personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
     Hendrik reflecting on his agentic development flow.
-  - Mans, Hendrik: "AI Makes Better Software", personal blog, https://www.hmans.dev/blog/ai-makes-better-software, 2026-08-25
+  - Mans, Hendrik: "AI Makes Better Software", personal blog, https://www.hmans.dev/blog/ai-makes-better-software, 2026-08-25  
     Hendrik muses on productivity, velocity, and attention in a world with AI powers.
 
 ---
