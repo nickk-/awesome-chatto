@@ -15,6 +15,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 * [Deployment](#deployment)
 * [Frontend](#frontend)
 * [Bots](#bots)
+* [Agents](#agents)
 * [Bridges](#bridges)
 * [Libraries](#libraries)
 * [Further Reading](#further-reading)
@@ -67,6 +68,11 @@ NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot account
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
   This is probably the first ever bot for Chatto.
 - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT
+
+## Agents
+
+- PaulK's **Hermes Chatto Plugin**: https://gogs.netdome.biz/paul/hermes-chatto-plugin/, *Full-featured Hermes Chatto Plugin. So you can use Chatto to talk to your Hermes Agent", MIT 
+  This started out as a fork of https://github.com/jrimmer/hermes-chatto-plugin/, and vendored in Felix' *chattolib*. 
 
 ## Bridges
 
