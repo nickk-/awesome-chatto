@@ -25,6 +25,10 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 ### Proxmox Virtual Environment/LXC
 - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT.  
   *(Testers wanted.)*
+  
+### AWS Lightsail 
+- jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT.  
+  Lightsail is AWS's Virtual Private Server (VPS) offering. This repository guides you through installing Chatto on Lightsail. 
 
 ### Installation and operations helpers
 
@@ -74,6 +78,8 @@ NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot account
   - Kaihanga's **Hermes Chatto Plugin**: https://github.com/jrimmer/hermes-chatto-plugin/, *Chatto platform adapter plugin for Hermes Agent — WebSocket realtime, ConnectRPC API, thread support, dynamic room discovery*, MIT
   - PaulK's **Hermes Chatto Plugin**: https://gogs.netdome.biz/paul/hermes-chatto-plugin/, *Full-featured Hermes Chatto Plugin. So you can use Chatto to talk to your Hermes Agent*, MIT  
   This first started out as a fork of Kaihanga's work, and vendored in Felix' *chattolib*. 
+  - ncmro's **channels** for Pi: https://github.com/ai-outfitter/channels, *Pi extension: push channel events (email/Slack/Signal/GitHub) into an agent session; wake only on real work.*, MIT  
+  This Pi extension watches notifications/mentions on different inbound channels (e.g. Chatto) and runs a durable Pi session on a match.
 
 ## Bridges
 
