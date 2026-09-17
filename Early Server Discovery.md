@@ -4,7 +4,7 @@ Please add or remove your public servers on [Chatto HQ](https://chat.chatto.run)
 
 NB: This list is a community effort, and neither community nor ChattoCorp have control about the Servers linked.
 
-Please note that public Servers might have a slight version drift, and ping me, if/when one of the entries becomes stale.
+Please note that public Servers might have a slight version drift, and ping *nickk* on Chatto HQ, if/when one of the entries becomes stale.
 
 | No. | Owner | URL | Intent |
 | --- | --- | --- | --- |
