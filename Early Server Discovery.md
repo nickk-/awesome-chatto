@@ -1,4 +1,4 @@
-# Early Public Server Discovery List [2026-09-17 ed.]
+# Early Public Server Discovery List [2026-09-19 ed.]
 
 ## The List
 
