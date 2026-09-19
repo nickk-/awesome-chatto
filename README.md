@@ -76,7 +76,7 @@ NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot account
 - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT  
 
 ### Rust
-- TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/chatto-tidal-bot, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit.*, GPL-3.0  
+- TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/chatto-tidal-bot, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
   NB: Requires Chatto 0.5+ as it makes use of the new Bot API surface. The first 0.5+ entry we have on *Awesome Chatto!*
 
 ## Agents
