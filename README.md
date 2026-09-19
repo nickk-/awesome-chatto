@@ -8,7 +8,9 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 ![Awesome](https://awesome.re/badge-flat2.svg)
 
-NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.
+NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.  
+
+Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Most entries on here assume 0.4 servers.
 
 ## Table of Contents
 
@@ -23,11 +25,11 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 ## Deployment 
 
 ### Proxmox Virtual Environment/LXC
-- MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT.  
+- MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT  
   *(Testers wanted.)*
   
 ### AWS Lightsail 
-- jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT.  
+- jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT  
   Lightsail is AWS's Virtual Private Server (VPS) offering. This repository guides you through installing Chatto on Lightsail. 
 
 ### Installation and operations helpers
@@ -62,7 +64,7 @@ These enrich Chatto's standard web client experience.
 These are alternative Chatto client implementations, usually focussing on text (chat) experience.
   - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0  
     Probably the very first alternative client for Chatto. Text mode, implemented in Go. Less of a classic client UI, more of a command-line interface to participating on a Server. 
-  - Felix's **chatto-native**, i.e. Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT
+  - Felix's **chatto-native**, i.e. Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT  
 
 ## Bots
 
@@ -71,7 +73,11 @@ NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot account
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
   This is probably the first ever bot for Chatto.
-- Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT
+- Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT  
+
+### Rust
+- TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/chatto-tidal-bot, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit.*, GPL-3.0  
+  NB: Requires Chatto 0.5+ as it makes use of the new Bot API surface. The first 0.5+ entry we have on *Awesome Chatto!*
 
 ## Agents
 
