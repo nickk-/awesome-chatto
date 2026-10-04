@@ -10,7 +10,9 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.  
 
-Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Most entries on here assume 0.4 servers.
+Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
+
+At the time of writing this, we're closing in on 0.5 beta 11 already. If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things keep on changing until release, self hosters report stable behaviour so far.  
 
 ## Table of Contents
 
@@ -46,9 +48,9 @@ These applications are native wrappers around Chatto's web frontend. This result
   
 NB: The natural drawback of this approach is that you are being tied to the wrapper's release cycle, which might not match your Server's upgrade policy. In other words: If the version difference between App Wrapper and Server becomes too large, expect some (feature) breakage.  
   
-NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ will be better at that.  
+NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ is better at that.  
 
-There *will* be official ChattoCorp apps at one point.  
+There *will* be official ChattoCorp apps at one point, with first iterations coming up in the 0.5 release cycle.  
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
@@ -58,7 +60,8 @@ There *will* be official ChattoCorp apps at one point.
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
 - SeanGSR's Chromium extension: https://github.com/SeanGSR/chatto-enhancer, *Chatto Enhancer*, MIT  
-  Aimed at Chatto 0.4. The extension provides enhancements for voice/video chat UI and chat bar (namely: Emoji picker, Giphy integration, local nicknames, enhanced theming, and Markdown controls).
+  Currently aimed at Chatto 0.4. The extension provides enhancements for voice/video chat UI and chat bar (namely: Emoji picker, Giphy integration, local nicknames, enhanced theming, and Markdown controls).  
+  NB: It's likely that SeanGSR will update the extension as soon as the feature set for Chatto 0.5 stabilises.  
         
 ### Client demonstrators
 These are alternative Chatto client implementations, usually focussing on text (chat) experience.
@@ -68,7 +71,7 @@ These are alternative Chatto client implementations, usually focussing on text (
 
 ## Bots
 
-NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot accounts, and clearly scoped capabilities.
+NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot accounts tied to an user account, and clearly scoped capabilities.
 
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
@@ -100,7 +103,8 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 - **Java:**
   - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
-  - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0
+  - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0  
+  NB: Felix' development closely follows Chatto's beta cycle.
 - **Rust:**
   - Jacklak's **churro** crate: https://github.com/jacklak-redstone/churro, *A Rust crate to make Chatto bots*, Apache-2.0  
   While *churro* still is in its early days, there is a demonstrator bot on Chatto HQ already, churrobot.
