@@ -12,7 +12,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
 
-At the time of writing this, we're closing in on 0.5 beta 11 already. If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things keep on changing until release, self hosters report stable behaviour so far.  
+At the time of writing this, we're closing in on 0.5 beta 11 already. **If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle** - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things keep on changing until release, self hosters report stable behaviour so far.  
 
 ## Table of Contents
 
@@ -128,6 +128,9 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 ---
 
 The Community is grateful for anyone who participates and contributes. Thank you!
+
+**Hall of Fame:**  
+- *freakynit* for graciously building and hosting the best ``@helpbot``, ever. While helpbot is now semi-retired, freakynit's experimenting is always leading the way.  
 
 Ideas? Suggestions? Found a stale link? Join us at [Chatto HQ](https://chat.chatto.run) and discuss!
 
