@@ -12,7 +12,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
 
-At the time of writing this, we're closing in on 0.5 beta 11 already. **If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle** - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things keep on changing until release, self hosters report stable behaviour so far.  
+At the time of writing this, we're closing in on 0.5 beta 21 already. **If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle** - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things might keep on changing until release candidates and subsequent release, self hosters report stable behaviour so far.  
 
 ## Table of Contents
 
@@ -26,13 +26,18 @@ At the time of writing this, we're closing in on 0.5 beta 11 already. **If you'r
 
 ## Deployment 
 
-### Proxmox Virtual Environment/LXC
+### Proxmox Virtual Environment/LXC, and Incus
 - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT  
-  *(Testers wanted.)*
-  
+  This closely follows Chatto's (beta) release cycle. *Testers wanted.*
+
 ### AWS Lightsail 
 - jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT  
-  Lightsail is AWS's Virtual Private Server (VPS) offering. This repository guides you through installing Chatto on Lightsail. 
+  Lightsail is AWS's Virtual Private Server (VPS) offering. This repository guides you through installing Chatto 0.4 on Lightsail.
+
+### Nix
+- abl's **nix-chatto**: https://github.com/abl/nix-chatto, *Nix flake for the Chatto release binary*, MIT  
+  Nix is a package manager, and NixOS is a Linux distribution based on Nix. It allows for reproducible builds and deployments, think "OS as code" - a declarative system configuration. A *Flake* can be imagined as part of a pipeline that builds these declarations, so nix-chatto is a quasi-installer for Chatto on NixOS.  
+  NB: Deliberately on Chatto's 0.4 cycle.
 
 ### Installation and operations helpers
 
@@ -50,7 +55,7 @@ NB: The natural drawback of this approach is that you are being tied to the wrap
   
 NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ is better at that.  
 
-There *will* be official ChattoCorp apps at one point, with first iterations coming up in the 0.5 release cycle.  
+There *will* be official ChattoCorp apps at one point, hitting pre-release in the 0.5 cycle.
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
@@ -66,12 +71,12 @@ These enrich Chatto's standard web client experience.
 ### Client demonstrators
 These are alternative Chatto client implementations, usually focussing on text (chat) experience.
   - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0  
-    Probably the very first alternative client for Chatto. Text mode, implemented in Go. Less of a classic client UI, more of a command-line interface to participating on a Server. 
+    Probably the very first alternative client for Chatto. Text mode, implemented in Go. Less of a classic client UI, more of a command-line interface to participating on a Server. Follows Chatto's 0.5 (beta) cycle. 
   - Felix's **chatto-native**, i.e. Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT  
 
 ## Bots
 
-NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot accounts tied to an user account, and clearly scoped capabilities.
+NB: Bot support is vastly improved in 0.5 beta. I'd encourage you to start with Chatto 0.5 if you plan on deploying more than just simple bots. Most projects listed here already need 0.5.
 
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
@@ -79,8 +84,8 @@ NB: Improved bot support coming up with Chatto 0.5+ - e.g. dedicated bot account
 - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT  
 
 ### Rust
-- TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/chatto-tidal-bot, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
-  NB: Requires Chatto 0.5+ as it makes use of the new Bot API surface. The first 0.5+ entry we have on *Awesome Chatto!*
+- TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/tidal-bot-chatto, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
+  NB: This was the very first 0.5+ entry we had on *Awesome Chatto!*
 
 ## Agents
 
@@ -100,6 +105,8 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
   
 ## Libraries
 
+NB: Most projects listed here already switched to 0.5 compatibility.
+
 - **Java:**
   - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
@@ -110,9 +117,11 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
   While *churro* still is in its early days, there is a demonstrator bot on Chatto HQ already, churrobot.
 - **TypeScript:**
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
-  Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too. 
+  Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too.
+  - ChattoCorp's **@chatto/client**: https://www.npmjs.com/package/@chatto/client, *@chatto/client is the client for Chatto 0.5 servers.*, Apache-2.0  
+  Newly made available in mid-October and still evolving, Hendrik (hmans) is dogfooding this one. Source is available in Chatto's monorepo.
 
-## Further Reading
+## Further Reading and Listening
 
 - About **Chatto 0.5**:
   - Release Checklist: https://github.com/chattocorp/chatto/issues/1926
@@ -120,10 +129,12 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 - About **Chatto 0.6**: 
   - Milestone Plan: https://github.com/chattocorp/chatto/milestone/5
 - **Meta**:
-  - Mans, Hendrik: "Chatto is Robots", personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
+  - [Article] Mans, Hendrik: "Chatto is Robots", personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
     Hendrik reflecting on his agentic development flow.
-  - Mans, Hendrik: "AI Makes Better Software", personal blog, https://www.hmans.dev/blog/ai-makes-better-software, 2026-08-25  
+  - [Article] Mans, Hendrik: "AI Makes Better Software", personal blog, https://www.hmans.dev/blog/ai-makes-better-software, 2026-08-25  
     Hendrik muses on productivity, velocity, and attention in a world with AI powers.
+  - [Podcast] Audiodump: ad239 - Das ist wie Baby Kafka (mit Hendrik Mans), podcast episode, https://audiodump.de/2026/10/22/ad239-das-ist-wie-baby-kafka-mit-hendrik-mans/, 2026-10-22  
+    (In German.) This 4,5hrs long episode of *Audiodump* features Hendrik as a guest; it led to a nuanced, well-balanced discussion (not only) about Chatto, about AI, and about policy and politics around these. Well worth a listen, especially if you're interested about Hendrik, and Hendrik's intent and deliberations.  
 
 ---
 
