@@ -76,7 +76,7 @@ These are alternative Chatto client implementations, usually focussing on text (
 
 ## Bots
 
-NB: Bot support is vastly improved in 0.5 beta. I'd encourage you to start with Chatto 0.5 if you plan on deploying more than just simple bots. Most projects listed here already need 0.5.
+NB: Bot support is vastly improved in 0.5 beta, including an optional MCP server for agents. I'd encourage you to start with Chatto 0.5 if you plan on deploying more than just simple bots. Most projects listed here already need 0.5.
 
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
@@ -133,7 +133,7 @@ NB: Most projects listed here already switched to 0.5 compatibility.
     Hendrik reflecting on his agentic development flow.
   - [Article] Mans, Hendrik: "AI Makes Better Software", personal blog, https://www.hmans.dev/blog/ai-makes-better-software, 2026-08-25  
     Hendrik muses on productivity, velocity, and attention in a world with AI powers.
-  - [Podcast] Audiodump: ad239 - Das ist wie Baby Kafka (mit Hendrik Mans), podcast episode, https://audiodump.de/2026/10/22/ad239-das-ist-wie-baby-kafka-mit-hendrik-mans/, 2026-10-22  
+  - [Podcast] Audiodump: "ad239 - Das ist wie Baby Kafka (mit Hendrik Mans)", podcast episode, https://audiodump.de/2026/10/22/ad239-das-ist-wie-baby-kafka-mit-hendrik-mans/, 2026-10-22  
     (In German.) This 4,5hrs long episode of *Audiodump* features Hendrik as a guest; it led to a nuanced, well-balanced discussion (not only) about Chatto, about AI, and about policy and politics around these. Well worth a listen, especially if you're interested about Hendrik, and Hendrik's intent and deliberations.  
 
 ---
