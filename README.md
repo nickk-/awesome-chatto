@@ -22,7 +22,7 @@ At the time of writing this, we're closing in on 0.5 beta 22 already. **If you'r
 * [Agents](#agents)
 * [Bridges](#bridges)
 * [Libraries](#libraries)
-* [Further Reading](#further-reading)
+* [Further Reading and Listening](#further-reading-and-listening)
 
 ## Deployment 
 
