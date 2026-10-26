@@ -55,12 +55,12 @@ NB: The natural drawback of this approach is that you are being tied to the wrap
   
 NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ is better at that.  
 
-There *will* be official ChattoCorp apps at one point, hitting pre-release in the 0.5 cycle.
+There will be official ChattoCorp desktop apps released alongside 0.5, and they will stabilise throughout 0.5's cycle. Currently, these apps do not support notifications yet; if you need those, use the excellent PWA. 
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
 - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+  
-  The earliest known shell, follows Chatto's release cycle. 
+  The earliest known shell, follows Chatto's (beta) release cycle. 
 
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
