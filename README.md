@@ -12,7 +12,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
 
-At the time of writing this, we're closing in on 0.5 beta 21 already. **If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle** - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things might keep on changing until release candidates and subsequent release, self hosters report stable behaviour so far.  
+At the time of writing this, we're closing in on 0.5 beta 22 already. **If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle** - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things might still keep on changing a bit until release candidates and subsequent release, self hosters report stable behaviour so far.  
 
 ## Table of Contents
 
