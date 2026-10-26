@@ -22,6 +22,7 @@ At the time of writing this, we're closing in on 0.5 beta 22 already. **If you'r
 * [Agents](#agents)
 * [Bridges](#bridges)
 * [Libraries](#libraries)
+* [Migration Hints](#migration-hints)
 * [Further Reading and Listening](#further-reading-and-listening)
 
 ## Deployment 
@@ -120,6 +121,10 @@ NB: Most projects listed here already switched to 0.5 compatibility.
   Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too.
   - ChattoCorp's **@chatto/client**: https://www.npmjs.com/package/@chatto/client, *@chatto/client is the client for Chatto 0.5 servers.*, Apache-2.0  
   Newly made available in mid-October and still evolving, Hendrik (hmans) is dogfooding this one. Source is available in Chatto's monorepo.
+
+## Migration Hints
+
+NB: Chatto 0.5's operator CLI has import functionality. Point your agent there.
 
 ## Further Reading and Listening
 
