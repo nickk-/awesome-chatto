@@ -60,7 +60,7 @@ There *will* be official ChattoCorp apps at one point, hitting pre-release in th
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
 - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+  
-  The earliest known shell, a proof-of-concept at this point.
+  The earliest known shell, follows Chatto's release cycle. 
 
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
@@ -101,7 +101,7 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 ### Chatto -- Discord
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
-  Felix says this is in its very early days as of early August 2026.
+  Felix says this is in its early days, but it might help communities help to migrate.
   
 ## Libraries
 
