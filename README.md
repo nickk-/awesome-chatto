@@ -125,6 +125,8 @@ NB: Most projects listed here already switched to 0.5 compatibility.
 
 ## Migration Hints
 
+For our purposes, a migration is an export (users, messages, attachments, reactions) from a source communications system like Slack, Discord, Matrix, or MS Teams, followed by an import of that data to Chatto. 
+
 As of late October 2026, ``chatto operator`` CLI now has import functionality using an all-purpose intermediate format. Matching export functionality will follow, likely with one of the next beta releases.  
 
 On Chatto HQ, we had people importing their chat history from ChatGPT, Claude, Slack, and Discord.  
