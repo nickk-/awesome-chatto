@@ -12,7 +12,8 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
 
-At the time of writing this, we're closing in on 0.5 beta 22 already. **If you're new to Chatto and pondering self-hosting, consider jumping on the 0.5 beta cycle** - 0.4 feels kind of outdated at this point. The new 0.5 features are worth it, and while things might still keep on changing a bit until release candidates and subsequent release, self hosters report stable behaviour so far.  
+At the time of writing this, we're closing in on 0.5 beta 23 already. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 beta cycle**. 0.4 clearly feels dated at this point, and the new 0.5 features are worth it. While betas still evolve, self hosters report stable behaviour so far.  
+If you do install via Docker, just make sure you switch from *chatto:next* to *chatto:latest* as soon as 0.5 release lands. 
 
 ## Table of Contents
 
@@ -61,7 +62,7 @@ There will be official ChattoCorp desktop apps released alongside 0.5, and they 
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
 - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+  
-  The earliest known shell, follows Chatto's (beta) release cycle. 
+  The very first community-made shell, follows Chatto's (beta) release cycle. 
 
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
@@ -124,7 +125,13 @@ NB: Most projects listed here already switched to 0.5 compatibility.
 
 ## Migration Hints
 
-NB: Chatto 0.5's operator CLI has import functionality. Point your agent there.
+As of late October 2026, ``chatto operator`` CLI now has import functionality using an all-purpose intermediate format. Matching export functionality will follow, likely with one of the next beta releases.  
+
+On Chatto HQ, we had people importing their chat history from ChatGPT, Claude, Slack, and Discord.  
+
+- Exporting a **Discord** server:
+  - Isotopp's **discord-exporter**: https://github.com/isotopp/discord-exporter, *Export the history of a discord server, using the bot API.*  
+  Deploys a clever approach to get a full export without breaking the API.
 
 ## Further Reading and Listening
 
@@ -146,10 +153,12 @@ NB: Chatto 0.5's operator CLI has import functionality. Point your agent there.
 The Community is grateful for anyone who participates and contributes. Thank you!
 
 **Hall of Fame:**  
-- *freakynit* for graciously building and hosting the best ``@helpbot``, ever. While helpbot is now semi-retired, freakynit's experimenting is always leading the way.  
+- *freakynit* for graciously building and hosting the best ``@helpbot``, ever. While helpbot is now retired, freakynit's experimenting is always leading the way.  
 
 Ideas? Suggestions? Found a stale link? Join us at [Chatto HQ](https://chat.chatto.run) and discuss!
 
 ---
+
+All trademarks mentioned are the property of their respective owners; their use does not constitute a claim of ownership or affiliation.  
 
 This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
