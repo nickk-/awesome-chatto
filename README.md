@@ -125,14 +125,14 @@ NB: Most projects listed here already switched to 0.5 compatibility.
 
 ## Migration Hints
 
-For our purposes, a migration is an export (users, messages, attachments, reactions) from a source communications system like Slack, Discord, Matrix, or MS Teams, followed by an import of that data to Chatto. 
+For our purposes, a *migration* is an export (users, messages, attachments, reactions) from one or more source communications systems like Slack, Discord, Matrix, or MS Teams, followed by an import of that data to Chatto. 
 
-As of late October 2026, ``chatto operator`` CLI now has import functionality using an all-purpose intermediate format. Matching export functionality will follow, likely with one of the next beta releases.  
+As of late October 2026, ``chatto operator`` CLI eyes import functionality using an all-purpose intermediate format, pending format stabilisation. Matching export functionality will follow, likely with one of the next beta releases.  
 
 On Chatto HQ, we had people importing their chat history from ChatGPT, Claude, Slack, and Discord.  
 
 - Exporting a **Discord** server:
-  - Isotopp's **discord-exporter**: https://github.com/isotopp/discord-exporter, *Export the history of a discord server, using the bot API.*  
+  - Isotopp's **discord-exporter**: https://github.com/isotopp/discord-exporter, *Export the history of a discord server, using the bot API.*, Unlicense  
   Deploys a clever approach to get a full export without breaking the API.
 
 ## Further Reading and Listening
