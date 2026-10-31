@@ -85,6 +85,8 @@ NB: Bot support is vastly improved in 0.5 beta/RC, including an optional MCP ser
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
   This is probably the first ever bot for Chatto.
 - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT  
+- Isotopp's **chatto-rss-bridge**: https://github.com/isotopp/chatto-rss-bridge, *Read messages from RSS and post them into a chatto.run channel*, Unlicense  
+  The bot and its feeds can be managed by @mention-ing. 
 
 ### Rust
 - TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/tidal-bot-chatto, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
@@ -104,7 +106,7 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 ### Chatto -- Discord
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
-  Felix says this is in its early days, but it might help communities help to migrate.
+  Felix says this is in its early days, but it might help communities help to migrate.  
   
 ## Libraries
 
