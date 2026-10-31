@@ -12,7 +12,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
 
-At the time of writing this, we're closing in on 0.5 release candidates. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 release candidates (RC).** 0.4 clearly feels dated at this point, and the new 0.5 features are well worth it. 
+At the time of writing this, we're closing in on 0.5 release candidates. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 release candidates (RC).** 0.4 very clearly feels dated at this point.  
 If you do install via Docker, just make sure you switch from *chatto:next* to *chatto:latest* as soon as 0.5 release lands. 
 
 ## Table of Contents
@@ -43,7 +43,7 @@ If you do install via Docker, just make sure you switch from *chatto:next* to *c
 
 ### Installation and operations helpers
 
-- lizard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, (license pending)
+- lizard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, (license pending)  
   A collection of patches for Chatto's upstream source that provide an improved tabletop / pen & paper role-playing game experience. Example functionality added: Dice support, and an image annotation functionality (i.e. for shared world maps and the like).
 - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
   "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
@@ -56,8 +56,6 @@ If you do install via Docker, just make sure you switch from *chatto:next* to *c
 These applications are native wrappers around Chatto's web frontend. This results in a standalone experience that includes native OS notifications, and badges.  
   
 NB: The natural drawback of this approach is that you are being tied to the wrapper's release cycle, which might not match your Server's upgrade policy. In other words: If the version difference between App Wrapper and Server becomes too large, expect some (feature) breakage.  
-  
-NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ is better at that.  
 
 There will be official ChattoCorp desktop apps (Linux, macOS, Windows) released alongside 0.5, but the PWA remains an excellent choice. 
   
