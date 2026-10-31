@@ -12,7 +12,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
 
-At the time of writing this, we're closing in on 0.5 beta 23 already. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 beta cycle**. 0.4 clearly feels dated at this point, and the new 0.5 features are worth it. While betas still evolve, self hosters report stable behaviour so far.  
+At the time of writing this, we're closing in on 0.5 release candidates. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 release candidates (RC).** 0.4 clearly feels dated at this point, and the new 0.5 features are well worth it. 
 If you do install via Docker, just make sure you switch from *chatto:next* to *chatto:latest* as soon as 0.5 release lands. 
 
 ## Table of Contents
@@ -30,7 +30,7 @@ If you do install via Docker, just make sure you switch from *chatto:next* to *c
 
 ### Proxmox Virtual Environment/LXC, and Incus
 - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT  
-  This closely follows Chatto's (beta) release cycle. *Testers wanted.*
+  This closely follows Chatto's (beta/RC) release cycle. *Testers wanted.*
 
 ### AWS Lightsail 
 - jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT  
@@ -57,12 +57,12 @@ NB: The natural drawback of this approach is that you are being tied to the wrap
   
 NB: 0.4 PWA and consequently App Wrappers make no good job at showing that there are always two version numbers involved: One for the frontend (shown) and one for the Server(s) it connects to (not shown). 0.5+ is better at that.  
 
-There will be official ChattoCorp desktop apps released alongside 0.5, and they will stabilise throughout 0.5's cycle. Currently, these apps do not support notifications yet; if you need those, use the excellent PWA. 
+There will be official ChattoCorp desktop apps (Linux, macOS, Windows) released alongside 0.5, but the PWA remains an excellent choice. 
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
 - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+  
-  The very first community-made shell, follows Chatto's (beta) release cycle. 
+  The very first community-made shell, follows Chatto's (beta/RC) release cycle. 
 
 ### Browser extensions
 These enrich Chatto's standard web client experience. 
@@ -75,10 +75,11 @@ These are alternative Chatto client implementations, usually focussing on text (
   - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0  
     Probably the very first alternative client for Chatto. Text mode, implemented in Go. Less of a classic client UI, more of a command-line interface to participating on a Server. Follows Chatto's 0.5 (beta) cycle. 
   - Felix's **chatto-native**, i.e. Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT  
+    [Chatto 0.4] Initially a Proof of Concept that even older stacks are able to connect to Chatto.  
 
 ## Bots
 
-NB: Bot support is vastly improved in 0.5 beta, including an optional MCP server for agents. I'd encourage you to start with Chatto 0.5 if you plan on deploying more than just simple bots. Most projects listed here already need 0.5.
+NB: Bot support is vastly improved in 0.5 beta/RC, including an optional MCP server for agents. I'd encourage you to start with Chatto 0.5 if you plan on deploying more than just simple bots. Most projects listed here already need 0.5.
 
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
@@ -109,6 +110,8 @@ A *bridge* is a special kind of bot that allows for Rooms being connected to at 
 
 NB: Most projects listed here already switched to 0.5 compatibility.
 
+If your prefered language has no entry yet: **Chatto's APIs have reflection enabled (are self-describing).**  
+
 - **Java:**
   - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
@@ -120,16 +123,18 @@ NB: Most projects listed here already switched to 0.5 compatibility.
 - **TypeScript:**
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
   Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too.
-  - ChattoCorp's **@chatto/client**: https://www.npmjs.com/package/@chatto/client, *@chatto/client is the client for Chatto 0.5 servers.*, Apache-2.0  
-  Newly made available in mid-October and still evolving, Hendrik (hmans) is dogfooding this one. Source is available in Chatto's monorepo.
+  - ChattoCorp's own **@chatto/client**: https://www.npmjs.com/package/@chatto/client, *@chatto/client is the client for Chatto 0.5 servers.*, Apache-2.0  
+  Newly made available in mid-October and still evolving, Hendrik (hmans) is dogfooding this one. Source is available in Chatto's monorepo.  
 
 ## Migration Hints
+
+NB: *Some assembly required.*
 
 For our purposes, a *migration* is an export (users, messages, attachments, reactions) from one or more source communications systems like Slack, Discord, Matrix, or MS Teams, followed by an import of that data to Chatto. 
 
 As of late October 2026, ``chatto operator`` CLI eyes import functionality using an all-purpose intermediate format, pending format stabilisation. Matching export functionality will follow, likely with one of the next beta releases.  
 
-On Chatto HQ, we had people importing their chat history from ChatGPT, Claude, Slack, and Discord.  
+On Chatto HQ, we also had people importing their chat history from ChatGPT<!-- , Claude, Slack, and Discord  -->.
 
 - Exporting a **Discord** server:
   - Isotopp's **discord-exporter**: https://github.com/isotopp/discord-exporter, *Export the history of a discord server, using the bot API.*, Unlicense  
