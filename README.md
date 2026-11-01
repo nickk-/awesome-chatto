@@ -10,9 +10,9 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.  
 
-Also, please note that Chatto HQ migrated to 0.5 beta releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 beta compatibility.
+Also, please note that Chatto HQ migrated to 0.5 beta/pre-releases in Mid-September. Many entries on here assume 0.4 servers, others already provide 0.5 compatibility.
 
-At the time of writing this, we're closing in on 0.5 release candidates. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 release candidates (RC).** 0.4 very clearly feels dated at this point.  
+At the time of writing this, we're closing in on 0.5 release. **If you're new to Chatto and pondering self-hosting, jump on the 0.5 release candidates (RC).** 0.4 very clearly feels dated at this point.  
 If you do install via Docker, just make sure you switch from *chatto:next* to *chatto:latest* as soon as 0.5 release lands. 
 
 ## Table of Contents
@@ -80,6 +80,10 @@ These are alternative Chatto client implementations, usually focussing on text (
 ## Bots
 
 NB: Bot support is vastly improved in 0.5 beta/RC, including an optional MCP server for agents. I'd encourage you to start with Chatto 0.5 if you plan on deploying more than just simple bots. Most projects listed here already need 0.5.
+
+### Golang
+- PaulK's **Cheapo**: https://gogs.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0  
+  Inspired by ``free-games-claimer`` and ``free-games-notifier``. No browser/Playwright or login needed. Detects and reports free game offers on Epic, GoG, Steam. MCP server included.
 
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
