@@ -121,7 +121,7 @@ If your prefered language has no entry yet: **Chatto's APIs have reflection enab
   NB: Felix' development closely follows Chatto's beta cycle.
 - **Rust:**
   - Jacklak's **churro** crate: https://github.com/jacklak-redstone/churro, *A Rust crate to make Chatto bots*, Apache-2.0  
-  While *churro* still is in its early days, there is a demonstrator bot on Chatto HQ already, churrobot.
+  While *churro* still is in its early days, there is a demonstrator bot on Chatto HQ already, churrobot. Jacklak is busy with a lot of other things, so this one may fall behind a bit. 
 - **TypeScript:**
   - Axodouble's **chatto.ts**: https://github.com/axodouble/chatto.ts, *A Chatto API Library that allows you to interact with a Chatto instance*, MIT  
   Axodouble deployed a bot on Chatto HQ aptly named *chatto.ts* which uses this library, too.
