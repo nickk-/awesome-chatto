@@ -93,6 +93,8 @@ NB: Bot support is vastly improved in 0.5 beta/RC, including an optional MCP ser
   The bot and its feeds can be managed by @mention-ing. 
 
 ### Rust
+- Jacklak's **TOGPCB**: https://github.com/jacklak-redstone/TOGPCB, *That One General Purpose Chatto Bot*, Apache-2.0  
+  Some Discord servers employ YAGPDB, a multi-purpose bot. Jacklak's project aims at being Chatto's YAGPDB one day. It's in its early stages, but might be an interesting scaffold for your own extensions.
 - TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/tidal-bot-chatto, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
   NB: This was the very first 0.5+ entry we had on *Awesome Chatto!*
 
@@ -136,7 +138,7 @@ If your prefered language has no entry yet: **Chatto's APIs have reflection enab
 
 NB: *Some assembly required.*
 
-For our purposes, a *migration* is an export (users, messages, attachments, reactions) from one or more source communications systems like Slack, Discord, Matrix, or MS Teams, followed by an import of that data to Chatto. 
+For our purposes, a *migration* is an export (users, messages, attachments, reactions) from one or more source communications systems like Slack, Discord, Matrix, or MS Teams, followed by an import of that data to your Chatto server. 
 
 As of late October 2026, ``chatto operator`` CLI eyes import functionality using an all-purpose intermediate format, pending format stabilisation. Matching export functionality will follow, likely with one of the next beta releases.  
 
