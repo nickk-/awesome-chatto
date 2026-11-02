@@ -10,9 +10,8 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.  
 
-Chatto hit 0.5.0 release candidate status. Most entries here assume 0.5 servers, some 0.4.
+Chatto hit 0.5.0 release candidate status. Most entries here assume 0.5 servers, some 0.4. **New installs are advised to deploy 0.5.0-rc releases.** Do **not** install 0.4 at this point.  
 
-**New installs are advised to deploy 0.5.0-rc releases.** Do **not** install 0.4 at this point.  
 As long as Chatto's in *release candidate* status: If you do install via Docker, just make sure you switch from *chatto:next* to *chatto:latest* as soon as 0.5 *release* lands. 
 
 ## Table of Contents
@@ -70,10 +69,12 @@ These enrich Chatto's standard web client experience.
   Currently aimed at Chatto 0.4. The extension provides enhancements for voice/video chat UI and chat bar (namely: Emoji picker, Giphy integration, local nicknames, enhanced theming, and Markdown controls).  
   NB: It's likely that SeanGSR will update the extension as soon as the feature set for Chatto 0.5 stabilises.  
         
-### Client demonstrators
-These are alternative Chatto client implementations, usually focussing on text (chat) experience.
-  - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0  
-    Probably the very first alternative client for Chatto. Text mode, implemented in Go. Less of a classic client UI, more of a command-line interface to participating on a Server. Follows Chatto's 0.5 (beta) cycle. 
+### Alternative clients
+These are alternative Chatto client implementations, usually focussing on text (chat) experience - leaving out audio and video calls.  
+  - Beardicus' **chatline**: https://tangled.org/beardic.us/chatline, *A command-line bot client for Chatto.*, Apache-2.0  
+    Spiritual sibling to "slackline". Includes a SKILL.md, has an agent-friendly ``chatline serve``, and works with Claude Code's *channels*. Implemented in Golang.  
+  - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0+  
+    Probably the very first alternative client for Chatto. Text mode, implemented in Golang. Less of a classic client UI, more of a command-line interface to participating on a Server.
   - Felix's **chatto-native**, i.e. Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT  
     [Chatto 0.4] Initially a Proof of Concept that even older stacks are able to connect to Chatto.  
 
