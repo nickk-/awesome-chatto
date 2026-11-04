@@ -42,7 +42,7 @@ As long as Chatto's in *release candidate* status: If you do install via Docker,
 
 ### Installation and operations helpers
 
-- lizard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, (license pending)  
+- lizard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, AGPL-3.0  
   A collection of patches for Chatto's upstream source that provide an improved tabletop / pen & paper role-playing game experience. Example functionality added: Dice support, and an image annotation functionality (i.e. for shared world maps and the like).
 - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
   "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
@@ -109,7 +109,9 @@ NB: Bot support is vastly improved in 0.5 beta/RC, including an optional MCP ser
 
 ## Bridges
 
-A *bridge* is a special kind of bot that allows for Rooms being connected to at least one other Room (or "channel") on another Server or even service. Content is shared between the connected Rooms/channels, so governance, data, and trust boundaries become fuzzy. Before deploying, ensure consent of admins/owners and Communities involved. 
+A *bridge* is a special kind of bot that allows for Rooms being connected to at least one other Room (or "channel") on another Server or even service. Content is shared between the connected Rooms/channels, so governance, data, and trust boundaries become fuzzy. Before deploying, ensure consent of admins/owners and Communities involved.  
+
+NB: You totally could build a bridge using one of the alternative clients listed above. 
 
 ### Chatto -- Discord
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
