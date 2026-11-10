@@ -117,8 +117,6 @@ NB: You totally could build a bridge using one of the alternative clients listed
   
 ## Libraries
 
-NB: Most projects listed here already switched to 0.5 compatibility.
-
 If your prefered language has no entry yet: **Chatto's APIs have reflection enabled (are self-describing).**  
 
 - **Java:**
@@ -154,7 +152,7 @@ On Chatto HQ, we also had people importing their chat history from ChatGPT<!-- ,
 - Chatto's documentation:
   - stable: https://docs.chatto.run/
   - dev: https://dev-docs.chatto.run/
-- About **Chatto 0.6**: 
+- About **Chatto 0.6**:
   - Release Checklist: https://github.com/chattocorp/chatto/issues/3589
   - Milestone Plan: https://github.com/chattocorp/chatto/milestone/5
 - About **Chatto 0.5**:
