@@ -12,7 +12,7 @@ NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occ
 
 Chatto hit 0.5.0 on Nov 9th. Thus, most entries here assume 0.5 servers. Do **not** install 0.4 at this point.  
 
-NB: For those operators that followed 0.5.0 release candidate cycle: If you use Docker, just make sure you switch from *chatto:next* to *chatto:latest* now.  
+NB: For those operators that followed 0.5.0 release candidate cycle -- if you use Docker, just make sure you switch from *chatto:next* to *chatto:latest* now.  
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ NB: For those operators that followed 0.5.0 release candidate cycle: If you use 
 ### Nix
 - abl's **nix-chatto**: https://github.com/abl/nix-chatto, *Nix flake for the Chatto release binary*, MIT  
   [0.4] Nix is a package manager, and NixOS is a Linux distribution based on Nix. It allows for reproducible builds and deployments, think "OS as code" - a declarative system configuration. A *Flake* can be imagined as part of a pipeline that builds these declarations, so nix-chatto is a quasi-installer for Chatto on NixOS.  
-  NB: Deliberately on Chatto's 0.4 cycle.
+  NB: Deliberately on Chatto's stable cycle.
 
 ### Installation and operations helpers
 
