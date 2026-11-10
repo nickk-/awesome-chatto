@@ -42,7 +42,7 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
 
 ### Installation Variants
 
-- lizard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, AGPL-3.0  
+- lizzard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, AGPL-3.0  
   A collection of patches for Chatto's upstream source that provide an improved tabletop / pen & paper role-playing game experience. Example functionality added: Dice support, and an image annotation functionality (i.e. for shared world maps and the like).
 - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
   [0.4] "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
@@ -86,11 +86,11 @@ To keep on using your Matrix client, see also *Bridges* below.
 ## Bots
 
 ### Golang
-- PaulK's **Cheapo**: https://gogs.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0  
+- PaulK's **Cheapo**: https://gogs.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0+  
   Inspired by ``free-games-claimer`` and ``free-games-notifier``. No browser/Playwright or login needed. Detects and reports free game offers on Epic, GoG, Steam. MCP server included.
 
 ### Python
-- Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
+- Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0+  
   This is probably the first ever bot for Chatto.
 - Felix's **robochatto**: https://github.com/TheCodemancerLtd/robochatto, *A bot demonstrator based on chattolib*, MIT  
 - Isotopp's **chatto-rss-bridge**: https://github.com/isotopp/chatto-rss-bridge, *Read messages from RSS and post them into a chatto.run channel*, Unlicense  
