@@ -40,12 +40,15 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
   [0.4] Nix is a package manager, and NixOS is a Linux distribution based on Nix. It allows for reproducible builds and deployments, think "OS as code" - a declarative system configuration. A *Flake* can be imagined as part of a pipeline that builds these declarations, so nix-chatto is a quasi-installer for Chatto on NixOS.  
   NB: Deliberately on Chatto's stable cycle.
 
-### Installation and operations helpers
+### Installation Variants
 
 - lizard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, AGPL-3.0  
   A collection of patches for Chatto's upstream source that provide an improved tabletop / pen & paper role-playing game experience. Example functionality added: Dice support, and an image annotation functionality (i.e. for shared world maps and the like).
 - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
   [0.4] "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
+
+### Operations Helpers 
+
 - SeanGSR's **chatto-admin** as alternative to Chatto's *Operator CLI*: https://github.com/SeanGSR/chatto-admin, *A community made Admin Panel for Chatto*, MIT  
   [0.4] Chatto 0.4 has made a deliberate security/AX choice of having certain administration functionality exposed only at its *Operator CLI* for the time being. If you need or want to have a web interface nevertheless - including all the potential drawbacks that might bring - this project is for you. Make sure you and your agent read its SECURITY.md before deploying. 
 	
@@ -54,9 +57,9 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
 ### App Wrappers
 These applications are native wrappers around Chatto's web frontend. This results in a standalone experience that includes native OS notifications, and badges.  
   
-There are be official ChattoCorp desktop apps (Linux, macOS, Windows) since 0.5, with the PWA remaining an excellent choice.  
+*Since 0.5, there are be official ChattoCorp desktop apps (Linux, macOS, Windows) with the PWA remaining an excellent choice.*  
 
-NB: If compatibility between your App wrapper and a server breaks due to different upgrade policies, you can always use that server's native web interface. 
+NB: If compatibility between your App wrapper and a server breaks due to different upgrade policies, you can always use that server's native web interface.  
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   [0.4] As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
