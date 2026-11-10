@@ -29,7 +29,7 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
 
 ### Proxmox Virtual Environment/LXC, and Incus
 - MickLesk's Community Script: https://community-scripts.org/scripts/chatto, MIT  
-  This closely follows Chatto's release cycle. *Testers wanted.*
+  This closely follows Chatto's release cycle.
 
 ### AWS Lightsail 
 - jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT  
