@@ -89,10 +89,6 @@ To keep on using your Matrix client, see also *Bridges* below.
 - PaulK's **Cheapo**: https://gogs.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0  
   Inspired by ``free-games-claimer`` and ``free-games-notifier``. No browser/Playwright or login needed. Detects and reports free game offers on Epic, GoG, Steam. MCP server included.
 
-### JavaScript
-- Griffo's **Airhornchatto**: https://tangled.org/griffo.tngl.sh/airhornchatto *The infamous Airhorn Discord Bot, reimagined for Chatto*, Apache-2.0
-  Inspired by [/airhorn](https://airhorn.solutions/). Has a `docker-compose.yml` on board for easy deployment.
-
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
   This is probably the first ever bot for Chatto.
@@ -105,6 +101,10 @@ To keep on using your Matrix client, see also *Bridges* below.
   Some Discord servers employ YAGPDB, a multi-purpose bot. Jacklak's project aims at being Chatto's YAGPDB one day. It's in its early stages, but might be an interesting scaffold for your own extensions.
 - TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/tidal-bot-chatto, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
   NB: This was the very first 0.5+ entry we had on *Awesome Chatto!*
+
+### TypeScript
+- Griffo's **Airhornchatto**: https://tangled.org/griffo.tngl.sh/airhornchatto *The infamous Airhorn Discord Bot, reimagined for Chatto*, Apache-2.0
+  Inspired by [/airhorn](https://airhorn.solutions/). Has a `docker-compose.yml` on board for easy deployment.
 
 ## Agents
 
