@@ -121,9 +121,9 @@ NB: You totally could build a bridge using one of the alternative clients listed
   Felix says this is in its early days, but it might help communities help to migrate.  
 
 ### Chatto -- Matrix
-  - else's **mautrix-chatto**, *Chat with Chatto communities via Matrix.*, AGPL-3.0
+  - else's **mautrix-chatto**: https://github.com/elsbrock/mautrix-chatto, *Chat with Chatto communities via Matrix.*, AGPL-3.0+
     Lets Matrix users participate in Chatto servers/communities with their preferred Matrix client. Does not bridge calls, but is aware of them.  
-	Works with *Ghost Bots* (puppeting) on both sides. On Chatto's end: If *mautrix-chatto* is configured to do so, an anchor member account lazily creates a bot (puppet) as a stand-in for a Matrix user. So, check with your Chatto server administrator about bot creation permission and limits. Fallback would be classic bridge (relay) behaviour.
+	Works with Ghost Bots on both sides. On Chatto's end, an anchor member account lazily creates a ghost bot as a stand-in for each Matrix user that does not have a Chatto identity of their own. So, check with your Chatto server administrator about bot creation permission and limits. Fallback: classic relay behaviour (one shared account with a name prefix). - For a feature mapping rundown, see https://mautrix-chatto.iodev.org/. 
 
   
 ## Libraries
