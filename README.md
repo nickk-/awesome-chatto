@@ -54,9 +54,9 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
 ### App Wrappers
 These applications are native wrappers around Chatto's web frontend. This results in a standalone experience that includes native OS notifications, and badges.  
   
-NB: The natural drawback of this approach is that you are being tied to the wrapper's release cycle, which might not match your Server's upgrade policy. In other words: If the version difference between App Wrapper and Server becomes too large, expect some (feature) breakage.  
+There are be official ChattoCorp desktop apps (Linux, macOS, Windows) since 0.5, with the PWA remaining an excellent choice.  
 
-There will be official ChattoCorp desktop apps (Linux, macOS, Windows) released alongside 0.5, but the PWA remains an excellent choice. 
+NB: If compatibility between your App wrapper and a server breaks due to different upgrade policies, you can always use that server's native web interface. 
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   [0.4] As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
