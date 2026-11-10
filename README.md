@@ -89,6 +89,10 @@ To keep on using your Matrix client, see also *Bridges* below.
 - PaulK's **Cheapo**: https://gogs.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0  
   Inspired by ``free-games-claimer`` and ``free-games-notifier``. No browser/Playwright or login needed. Detects and reports free game offers on Epic, GoG, Steam. MCP server included.
 
+### JavaScript
+- Griffo's **Airhornchatto**: https://tangled.org/griffo.tngl.sh/airhornchatto *The infamous Airhorn Discord Bot, reimagined for Chatto*, Apache-2.0
+  Inspired by [/airhorn](https://airhorn.solutions/). Has a `docker-compose.yml` on board for easy deployment.
+
 ### Python
 - Teal's **chatto-bot**: https://github.com/teal-bauer/chatto-bot, *Python bot framework for Chatto — decorator-based commands, cog system, WebSocket subscriptions*, AGPL-3.0  
   This is probably the first ever bot for Chatto.
@@ -190,4 +194,4 @@ Ideas? Suggestions? Found a stale link? Join us at [Chatto HQ](https://chat.cha
 
 All trademarks mentioned are the property of their respective owners; their use does not constitute a claim of ownership or affiliation.  
 
-This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
