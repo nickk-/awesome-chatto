@@ -57,7 +57,7 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
 ### App Wrappers
 These applications are native wrappers around Chatto's web frontend. This results in a standalone experience that includes native OS notifications, and badges.  
   
-*Since 0.5, there are be official ChattoCorp desktop apps (Linux, macOS, Windows) with the PWA remaining an excellent choice.*  
+*Since 0.5, there are official ChattoCorp desktop apps (Linux, macOS, Windows) with the PWA remaining an excellent choice.*  
 
 NB: If compatibility between your App wrapper and a server breaks due to different upgrade policies, you can always use that server's native web interface.  
   
@@ -122,10 +122,9 @@ NB: You totally could build a bridge using one of the alternative clients listed
 
 ### Chatto -- Matrix
   - else's **mautrix-chatto**: https://github.com/elsbrock/mautrix-chatto, *Chat with Chatto communities via Matrix.*, AGPL-3.0+  
-    Lets Matrix users participate in Chatto servers/communities with their preferred Matrix client. Does not bridge calls, but is aware of them.  
-	Works with Ghost Bots on both sides. On Chatto's end, an anchor member account lazily creates a ghost bot as a stand-in for each Matrix user that does not have a Chatto identity of their own. So, check with your Chatto server administrator about bot creation permission and limits. Fallback: classic relay behaviour (one shared account with a name prefix). - For a feature mapping rundown, see https://mautrix-chatto.iodev.org/. 
+  Lets Matrix users participate in Chatto servers/communities with their preferred Matrix client. Does not bridge calls, but is aware of them.  
+  Works with Ghost Bots on both sides. On Chatto's end, an anchor member account lazily creates a ghost bot as a stand-in for each Matrix user that does not have a Chatto identity of their own. So, check with your Chatto server administrator about bot creation permission and limits. Fallback: classic relay behaviour (one shared account with a name prefix). - For a feature mapping rundown, see https://mautrix-chatto.iodev.org/. 
 
-  
 ## Libraries
 
 If your prefered language has no entry yet: **Chatto's APIs have reflection enabled (are self-describing).**  
