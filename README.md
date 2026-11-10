@@ -79,7 +79,9 @@ These are alternative Chatto client implementations, usually focussing on text (
   - Teal's **chatto-cli**: https://github.com/teal-bauer/chatto-cli, *Command-line client for Chatto (chatto.run)*, AGPL-3.0+  
     Probably the very first alternative client for Chatto. Text mode, implemented in Golang. Less of a classic client UI, more of a command-line interface to participating on a Server.
   - Felix's **chatto-native**, i.e. Python/Tk and Tcl/Tk clients: https://github.com/TheCodemancerLtd/chatto-native, MIT  
-    [0.4] Initially a Proof of Concept that even older stacks are able to connect to Chatto.  
+    [0.4] Initially a Proof of Concept that even older stacks are able to connect to Chatto. 
+  
+To keep on using your Matrix client, see also *Bridges* below.
 
 ## Bots
 
@@ -117,6 +119,12 @@ NB: You totally could build a bridge using one of the alternative clients listed
 ### Chatto -- Discord
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
   Felix says this is in its early days, but it might help communities help to migrate.  
+
+### Chatto -- Matrix
+  - else's **mautrix-chatto**, *Chat with Chatto communities via Matrix.*, AGPL-3.0
+    Lets Matrix users participate in Chatto servers/communities with their preferred Matrix client. Does not bridge calls, but is aware of them.  
+	Works with *Ghost Bots* (puppeting) on both sides. On Chatto's end: If *mautrix-chatto* is configured to do so, an anchor member account lazily creates a bot (puppet) as a stand-in for a Matrix user. So, check with your Chatto server administrator about bot creation permission and limits. Fallback would be classic bridge (relay) behaviour.
+
   
 ## Libraries
 
