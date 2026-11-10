@@ -151,7 +151,11 @@ On Chatto HQ, we also had people importing their chat history from ChatGPT<!-- ,
 
 ## Further Reading and Listening
 
+- Chatto's documentation:
+  - stable: https://docs.chatto.run/
+  - dev: https://dev-docs.chatto.run/
 - About **Chatto 0.6**: 
+  - Release Checklist: https://github.com/chattocorp/chatto/issues/3589
   - Milestone Plan: https://github.com/chattocorp/chatto/milestone/5
 - About **Chatto 0.5**:
   - Release Notes: https://github.com/chattocorp/chatto/releases/tag/v0.5.0
