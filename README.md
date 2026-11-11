@@ -102,6 +102,10 @@ To keep on using your Matrix client, see also *Bridges* below.
 - TimesZ's **Chatto Tidal Bot**: https://github.com/Times-Z/tidal-bot-chatto, *A music bot for Chatto that plays Tidal HiFi streams in voice channels via LiveKit*, GPL-3.0  
   NB: This was the very first 0.5+ entry we had on *Awesome Chatto!*
 
+### TypeScript
+- Griffo's **Airhornchatto**: https://tangled.org/griffo.tngl.sh/airhornchatto *The infamous Airhorn Discord Bot, reimagined for Chatto*, Apache-2.0
+  Inspired by [/airhorn](https://airhorn.solutions/). Has a `docker-compose.yml` on board for easy deployment.
+
 ## Agents
 
   - [0.4] Kaihanga's **Hermes Chatto Plugin**: https://github.com/jrimmer/hermes-chatto-plugin/, *Chatto platform adapter plugin for Hermes Agent — WebSocket realtime, ConnectRPC API, thread support, dynamic room discovery*, MIT
@@ -190,4 +194,4 @@ Ideas? Suggestions? Found a stale link? Join us at [Chatto HQ](https://chat.cha
 
 All trademarks mentioned are the property of their respective owners; their use does not constitute a claim of ownership or affiliation.  
 
-This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+This is a community effort not affiliated with ChattoCorp GmbH. Work licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
