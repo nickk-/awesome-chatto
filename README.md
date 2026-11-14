@@ -86,7 +86,7 @@ To keep on using your Matrix client, see also *Bridges* below.
 ## Bots
 
 ### Golang
-- PaulK's **Cheapo**: https://gogs.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0+  
+- PaulK's **Cheapo**: https://forgejo.netdome.biz/paul/cheapo, *A CLI that finds all those free games from all those game stores. And, if you want, posts them to a Chatto channel.*, AGPL-3.0+  
   Inspired by ``free-games-claimer`` and ``free-games-notifier``. No browser/Playwright or login needed. Detects and reports free game offers on Epic, GoG, Steam. MCP server included.
 
 ### Python
@@ -103,13 +103,13 @@ To keep on using your Matrix client, see also *Bridges* below.
   NB: This was the very first 0.5+ entry we had on *Awesome Chatto!*
 
 ### TypeScript
-- Griffo's **Airhornchatto**: https://tangled.org/griffo.tngl.sh/airhornchatto *The infamous Airhorn Discord Bot, reimagined for Chatto*, Apache-2.0
+- Griffo's **Airhornchatto**: https://tangled.org/griffo.tngl.sh/airhornchatto *The infamous Airhorn Discord Bot, reimagined for Chatto*, Apache-2.0  
   Inspired by [/airhorn](https://airhorn.solutions/). Has a `docker-compose.yml` on board for easy deployment.
 
 ## Agents
 
   - [0.4] Kaihanga's **Hermes Chatto Plugin**: https://github.com/jrimmer/hermes-chatto-plugin/, *Chatto platform adapter plugin for Hermes Agent — WebSocket realtime, ConnectRPC API, thread support, dynamic room discovery*, MIT
-  - PaulK's **Hermes Chatto Plugin**: https://gogs.netdome.biz/paul/hermes-chatto-plugin/, *Full-featured Hermes Chatto Plugin. So you can use Chatto to talk to your Hermes Agent*, MIT  
+  - PaulK's **Hermes Chatto Plugin**: https://forgejo.netdome.biz/paul/hermes-chatto-plugin, *Full-featured Hermes Chatto Plugin. So you can use Chatto to talk to your Hermes Agent*, MIT  
   This first started out as a fork of Kaihanga's work, and vendored in Felix' *chattolib*. 
   - ncmro's **channels** for Pi: https://github.com/ai-outfitter/channels, *Pi extension: push channel events (email/Slack/Signal/GitHub) into an agent session; wake only on real work.*, MIT  
   This Pi extension watches notifications/mentions on different inbound channels (e.g. Chatto) and runs a durable Pi session on a match.
