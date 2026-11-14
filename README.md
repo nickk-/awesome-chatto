@@ -137,7 +137,10 @@ If your prefered language has no entry yet: **Chatto's APIs have reflection enab
   - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
   - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0  
-  NB: Felix' development closely follows Chatto's beta cycle.
+  NB: Felix' development closely follows Chatto's cycle, including betas and release candidates.
+  - tedi0us's **chatto-bot-toolkit**: https://github.com/tedi0us/chatto-bot-kit, *Webhook signature verification, delivery dedup, deferred-work queue and swappable LLM backends for Chatto bots*, MIT
+  Infrastructure for *webhook-based bots*, providing functionality to verify the webhook, dedup by delivery ID, ack immediately, and employ a worker (Chatto retries unacknowledged webhooks up to five times over 24 hours). Sports a framework-agnostic core, Claude/OpenAI-style LLM backends, and two reference implementations.  
+  NB: Repo is *chatto-bot-kit*, the actual pip package is *chatto-bot-toolkit*.
 - **Rust:**
   - Jacklak's **churro** crate: https://github.com/jacklak-redstone/churro, *A Rust crate to make Chatto bots*, Apache-2.0  
   While *churro* still is in its early days, there is a demonstrator bot on Chatto HQ already, churrobot. Jacklak is busy with a lot of other things, so this one may fall behind a bit. 
