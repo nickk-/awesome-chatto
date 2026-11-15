@@ -122,7 +122,7 @@ NB: You totally could build a bridge using one of the alternative clients listed
 
 ### Chatto -- Discord
   - Felix's **chatto-bridge**: https://github.com/TheCodemancerLtd/chatto-bridge, *Discord ↔ Chatto bridge bot (discord.py + chattolib + NATS)*, MPL-2.0  
-  Felix says this is in its early days, but it might help communities help to migrate.  
+  Includes contributions by Alfredolin. Bidirectional message/edit forwarding, reply management, and other competent features.  
 
 ### Chatto -- Matrix
   - else's **mautrix-chatto**: https://github.com/elsbrock/mautrix-chatto, *Chat with Chatto communities via Matrix.*, AGPL-3.0+  
