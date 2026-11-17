@@ -2,6 +2,8 @@
 
 ## The List
 
+As of November 2026, please consider this a historic artifact more than a living list; neighbourhood functionality landed in Chatto 0.5.0.  
+
 Please add or remove your public servers on [Chatto HQ](https://chat.chatto.run). There's a link at the side panel ("Promote your Server!").
 
 NB: This list is a community effort, and neither community nor ChattoCorp have control about the Servers linked.
