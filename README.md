@@ -10,7 +10,7 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.  
 
-Chatto hit 0.5.0 on Nov 9th. Thus, most entries here assume 0.5 servers. Do **not** install 0.4 at this point.  
+Chatto hit 0.5.0 on Nov 9th, with 0.6.0-beta.0 in sight. Most entries here assume 0.5 servers. Do **not** install 0.4 at this point.  
 
 NB: For those operators that followed 0.5.0 release candidate cycle -- if you use Docker, just make sure you switch from *chatto:next* to *chatto:latest* now.  
 
@@ -33,25 +33,27 @@ NB: For those operators that followed 0.5.0 release candidate cycle -- if you us
 
 ### AWS Lightsail 
 - jessedc's **chatto-on-lightsail**: https://github.com/jessedc/chatto-on-lightsail, MIT  
-  [0.4] Lightsail is AWS's Virtual Private Server (VPS) offering. This repository guides you through installing Chatto 0.4 on Lightsail.
+  [0.4] Lightsail is AWS's Virtual Private Server (VPS) offering. This repository guides you through installing Chatto 0.4 on Lightsail.  
+  *NB: Entry will be attic'd no earlier than 2026-11-24, barring 0.5+ readiness.*  
 
 ### Nix
 - abl's **nix-chatto**: https://github.com/abl/nix-chatto, *Nix flake for the Chatto release binary*, MIT  
   [0.4] Nix is a package manager, and NixOS is a Linux distribution based on Nix. It allows for reproducible builds and deployments, think "OS as code" - a declarative system configuration. A *Flake* can be imagined as part of a pipeline that builds these declarations, so nix-chatto is a quasi-installer for Chatto on NixOS.  
-  NB: Deliberately on Chatto's stable cycle.
+  NB: Do *not* install new servers with 0.4.  
+  *NB: Entry will be attic'd no earlier than 2026-11-24, barring 0.5+ readiness.*  
 
 ### Installation Variants
 
 - lizzard77's **chatto-ttrpg-patches**: https://github.com/lizzard77/chatto-ttrpg-patches, AGPL-3.0  
   A collection of patches for Chatto's upstream source that provide an improved tabletop / pen & paper role-playing game experience. Example functionality added: Dice support, and an image annotation functionality (i.e. for shared world maps and the like).
 - poga's **Emergency Box** for Civil Protection scenarios: https://github.com/poga/emergency-box, *A chat room that lives on your wifi and keeps working when the Internet dies*, AGPL-3.0  
-  [0.4] "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."
+  [0.4] "It's a 1 shot script for setting up a Chatto Server on a MacBook which allows anyone on the same LAN to join. Includes some built-in bots for fetching news if there's still intermittent internet connection."  
 
 ### Operations Helpers 
 
 - SeanGSR's **chatto-admin** as alternative to Chatto's *Operator CLI*: https://github.com/SeanGSR/chatto-admin, *A community made Admin Panel for Chatto*, MIT  
-  [0.4] Chatto 0.4 has made a deliberate security/AX choice of having certain administration functionality exposed only at its *Operator CLI* for the time being. If you need or want to have a web interface nevertheless - including all the potential drawbacks that might bring - this project is for you. Make sure you and your agent read its SECURITY.md before deploying. 
-	
+  [0.4] Chatto 0.4 has made a deliberate security/AX choice of having certain administration functionality exposed only at its *Operator CLI* for the time being. If you need or want to have a web interface nevertheless - including all the potential drawbacks that might bring - this project is for you. Make sure you and your agent read its SECURITY.md before deploying.  
+
 ## Frontend
 
 ### App Wrappers
@@ -63,6 +65,7 @@ NB: If compatibility between your App wrapper and a server breaks due to differe
   
 - Kaihanga's **Solander**, a Tauri shell: https://github.com/jrimmer/solander-desktop, *Chatto desktop client*, Apache-2.0  
   [0.4] As of 2026-08-09, this was tested with Chatto Server 0.4.8 only - but likely works with later 0.4 releases. It just shows 0.4.8 on its User Interface because that was the PWA's version that got "app wrapped".  
+  *NB: Entry will be attic'd no earlier than 2026-11-24, barring 0.5+ readiness.*  
 - Teal's Tauri shell: https://github.com/teal-bauer/chatto-tauri, AGPL-3.0+  
   The very first community-made shell, follows Chatto's (beta/RC) release cycle. 
 
@@ -108,7 +111,8 @@ To keep on using your Matrix client, see also *Bridges* below.
 
 ## Agents
 
-  - [0.4] Kaihanga's **Hermes Chatto Plugin**: https://github.com/jrimmer/hermes-chatto-plugin/, *Chatto platform adapter plugin for Hermes Agent — WebSocket realtime, ConnectRPC API, thread support, dynamic room discovery*, MIT
+  - [0.4] Kaihanga's **Hermes Chatto Plugin**: https://github.com/jrimmer/hermes-chatto-plugin/, *Chatto platform adapter plugin for Hermes Agent — WebSocket realtime, ConnectRPC API, thread support, dynamic room discovery*, MIT  
+  *NB: Entry will be attic'd no earlier than 2026-11-24, barring 0.5+ readiness.*  
   - PaulK's **Hermes Chatto Plugin**: https://forgejo.netdome.biz/paul/hermes-chatto-plugin, *Full-featured Hermes Chatto Plugin. So you can use Chatto to talk to your Hermes Agent*, MIT  
   This first started out as a fork of Kaihanga's work, and vendored in Felix' *chattolib*. 
   - ncmro's **channels** for Pi: https://github.com/ai-outfitter/channels, *Pi extension: push channel events (email/Slack/Signal/GitHub) into an agent session; wake only on real work.*, MIT  
