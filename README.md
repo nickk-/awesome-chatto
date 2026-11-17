@@ -174,8 +174,6 @@ On Chatto HQ, we also had people importing their chat history from ChatGPT<!-- ,
   - Milestone Plan: https://github.com/chattocorp/chatto/milestone/5
 - About **Chatto 0.5**:
   - Release Notes: https://github.com/chattocorp/chatto/releases/tag/v0.5.0
-  - Release Checklist: https://github.com/chattocorp/chatto/issues/1926  *(will be removed from Awesome Chatto no earlier than 2026-11-16)*
-  - Milestone Plan: https://github.com/chattocorp/chatto/milestone/4 *(will be removed from Awesome Chatto no earlier than 2026-11-16)*
 - **Meta**:
   - [Article] Mans, Hendrik: "Chatto is Robots", personal blog, https://www.hmans.dev/blog/chatto-is-robots, 2026-07-16  
     Hendrik reflecting on his agentic development flow.
