@@ -140,7 +140,7 @@ If your prefered language has no entry yet: **Chatto's APIs have reflection enab
 - **Java:**
   - Freakynit's **chatto-java-sdk**: https://github.com/freakynit/chatto-java-sdk, *A Chatto API Library for Java that allows you to interact with a Chatto instance*, MIT
 - **Python:**
-  - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python client for the Chatto webchat GraphQL API*, MPL-2.0  
+  - Felix's **chattolib**: https://github.com/TheCodemancerLtd/chattolib, *Async Python library for building Chatto bots: typed Connect RPC client plus realtime WebSocket events*, MPL-2.0  
   NB: Felix' development closely follows Chatto's cycle, including betas and release candidates.
   - tedi0us's **chatto-bot-toolkit**: https://github.com/tedi0us/chatto-bot-kit, *Webhook signature verification, delivery dedup, deferred-work queue and swappable LLM backends for Chatto bots*, MIT
   Infrastructure for *webhook-based bots*, providing functionality to verify the webhook, dedup by delivery ID, ack immediately, and employ a worker (Chatto retries unacknowledged webhooks up to five times over 24 hours). Sports a framework-agnostic core, Claude/OpenAI-style LLM backends, and two reference implementations.  
