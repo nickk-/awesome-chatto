@@ -10,9 +10,9 @@ Chatto is a *A fully-featured team and group chat application that you can easil
 
 NB: Chatto currently is pre-1.0 software. Consequently, some breakage *will* occur. Most authors are on Chatto HQ, so stop by and share your experiences.  
 
-Chatto hit 0.5.0 on Nov 9th, with 0.6.0-beta.0 in sight. Most entries here assume 0.5 servers. Do **not** install 0.4 at this point.  
+Most entries here assume 0.5+ servers. **Do not install anything 0.4 at this point.** We currently are in 0.6's beta cycle.    
 
-NB: For those operators that followed 0.5.0 release candidate cycle -- if you use Docker, just make sure you switch from *chatto:next* to *chatto:latest* now.  
+NB: For those operators that followed beta / release candidate cycle and wish to hit stable -- if you use Docker, just make sure you switch from *chatto:next* to *chatto:latest* now.  
 
 ## Table of Contents
 
